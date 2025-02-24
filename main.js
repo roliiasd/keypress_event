@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     textarea.id = 'area';
 
     textarea.placeholder = 'Írd be a jelszavad: ';
-
+    textarea.addEventListener('keypress', () => jelszo(textarea, demoSpan));
 
     containerDiv.append(demoSpan, textarea);
     document.body.append(containerDiv);
@@ -18,3 +18,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     console.log(containerDiv);
 })
+
+function jelszo(textarea, demoSpan){
+    let csillag = '';
+    for(let i = 0; i < textarea.value.length; i++){
+        
+        
+    }
+}
