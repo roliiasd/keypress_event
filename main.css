@@ -1,6 +1,13 @@
-body{
+body {
     background-color: #8a0639;
-    color: #ffd900;
+    color: gold;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px gold,
+        0 0 30px goldenrod,
+        0 0 40px goldenrod,
+        0 0 55px goldenrod,
+        0 0 70px goldenrod;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
@@ -8,14 +15,14 @@ body{
     height: 100vh;
 }
 
-.container{
+.container {
     width: 75%;
     display: flex;
     flex-direction: column;
     padding: 2rem;
 }
 
-textarea{
+textarea {
     border-radius: 0.25rem;
     border: none;
     line-height: 3rem;
@@ -25,5 +32,3 @@ textarea{
     font-size: 2rem;
     resize: none;
 }
-
-
