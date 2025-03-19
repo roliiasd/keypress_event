@@ -1,34 +1,80 @@
 body {
-    background-color: #8a0639;
-    color: gold;
-    text-shadow: 0 0 5px #fff,
-        0 0 10px #fff,
-        0 0 20px gold,
-        0 0 30px goldenrod,
-        0 0 40px goldenrod,
-        0 0 55px goldenrod,
-        0 0 70px goldenrod;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  background-color: #8a0639;
+  color: black;
+  text-shadow: 0 0 5px gold,
+0 0 30px pink, 
+0 0 40px pink, 
+0 0 55px pink,
+0 0 70px pink;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }
 
 textarea {
-    border-radius: 0.25rem;
-    border: none;
-    line-height: 3rem;
-    height: 3rem;
-    margin-top: 0.5rem;
-    padding: 0.5rem;
-    font-size: 2rem;
-    resize: none;
+  border-radius: 0.25rem;
+  border: none;
+  line-height: 3rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  resize: none;
+}
+#helper {
+  justify-content: right;
+  align-items: right;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  color: white;
+  max-width: 24px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
